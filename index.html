@@ -1,0 +1,413 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAISON ÉCLAT | Fashion House</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="#home" class="logo">MAISON <span>ÉCLAT</span></a>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">Our Story</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+        <div class="language-switcher">
+            <button class="active" data-language="en">EN</button>
+            <button data-language="fr">FR</button>
+            <button data-language="ar">AR</button>
+        </div>
+
+        <button class="cart-toggle" id="cartToggle">
+            BAG (<span id="cartCount">0</span>)
+        </button>
+
+        <a href="#collection" class="nav-button">Discover</a>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=2000&q=90" alt="MAISON ÉCLAT Fashion Campaign">
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <p class="eyebrow">THE NEW ERA OF FASHION</p>
+
+        <h1>A NEW LANGUAGE<br>OF <span>LUXURY.</span></h1>
+
+        <p class="hero-description">
+            Where timeless elegance meets modern expression.
+            Discover a world beyond fashion.
+        </p>
+
+        <a href="#collection" class="gold-button">
+            EXPLORE THE COLLECTION
+        </a>
+    </div>
+
+    <div class="hero-bottom">
+        <span>COLLECTION 2026</span>
+        <span>01 — 06</span>
+    </div>
+</section>
+
+<section class="intro" id="intro">
+    <p class="eyebrow">A DIFFERENT KIND OF BEAUTY</p>
+
+    <h2>
+        Fashion is more than what you wear.<br>
+        <span>It's how you feel.</span>
+    </h2>
+
+    <p>
+        MAISON ÉCLAT creates elegant pieces for women
+        who express their strength through style.
+    </p>
+</section>
+
+<section class="collection" id="collection">
+
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">CURATED FOR YOU</p>
+            <h2>Our Collection</h2>
+        </div>
+        <p>Discover your next statement piece.</p>
+    </div>
+
+    <div class="products">
+
+        <article class="product">
+            <div class="product-image dress-one"><span>01</span></div>
+            <div class="product-info">
+                <div>
+                    <h3>Dresses</h3>
+                    <p>Elegance in Every Detail</p>
+                </div>
+                <span>DISCOVER ↗</span>
+            </div>
+        </article>
+
+        <article class="product">
+            <div class="product-image dress-two"><span>02</span></div>
+            <div class="product-info">
+                <div>
+                    <h3>Jackets & Blazers</h3>
+                    <p>Powerful Silhouettes</p>
+                </div>
+                <span>DISCOVER ↗</span>
+            </div>
+        </article>
+
+        <article class="product">
+            <div class="product-image dress-three"><span>03</span></div>
+            <div class="product-info">
+                <div>
+                    <h3>Ready to Wear</h3>
+                    <p>Modern Daily Luxury</p>
+                </div>
+                <span>DISCOVER ↗</span>
+            </div>
+        </article>
+
+        <article class="product">
+            <div class="product-image dress-one"><span>04</span></div>
+            <div class="product-info">
+                <div>
+                    <h3>Shoes</h3>
+                    <p>Designed to Make an Entrance</p>
+                </div>
+                <span>DISCOVER ↗</span>
+            </div>
+        </article>
+
+        <article class="product">
+            <div class="product-image dress-two"><span>05</span></div>
+            <div class="product-info">
+                <div>
+                    <h3>Bags & Accessories</h3>
+                    <p>The Finishing Touch</p>
+                </div>
+                <span>DISCOVER ↗</span>
+            </div>
+        </article>
+
+        <article class="product">
+            <div class="product-image dress-three"><span>06</span></div>
+            <div class="product-info">
+                <div>
+                    <h3>Co-ord Sets</h3>
+                    <p>Effortless Sophistication</p>
+                </div>
+                <span>DISCOVER ↗</span>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section class="signature" id="signature">
+
+    <div class="signature-heading">
+        <p class="eyebrow">SELECTED FOR YOU — 2026</p>
+        <h2>THE SIGNATURE <span>EDIT.</span></h2>
+        <p>Exceptional pieces. Unforgettable presence.</p>
+    </div>
+
+    <div class="signature-grid">
+
+        <article class="signature-card">
+            <div class="signature-image">
+                <img src="https://images.unsplash.com/photo-1681860317538-12f5b396c1bf?auto=format&fit=crop&w=1000&q=90"
+                     alt="Urban fashion look" loading="lazy">
+                <span>01 / THE DRESS</span>
+            </div>
+            <h3>The Evening Muse</h3>
+            <p>TIMELESS FEMININITY</p>
+            <button class="order-button" data-product="The Élise Dress">
+                Discover Piece
+            </button>
+        </article>
+
+        <article class="signature-card">
+            <div class="signature-image">
+                <img src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=1000&q=90"
+                     alt="Contemporary fashion look" loading="lazy">
+                <span>02 / THE LOOK</span>
+            </div>
+            <h3>The Modern Icon</h3>
+            <p>CONTEMPORARY ELEGANCE</p>
+            <button class="order-button" data-product="The Amara Set">
+                Discover Piece
+            </button>
+        </article>
+
+        <article class="signature-card">
+            <div class="signature-image">
+                <img src="https://images.unsplash.com/photo-1613915617430-8ab0fd7c6baf?auto=format&fit=crop&w=1000&q=90"
+                     alt="Elegant blazer and trousers" loading="lazy">
+                <span>03 / THE LOOK</span>
+            </div>
+            <h3>The Power Look</h3>
+            <p>MODERN TAILORING</p>
+            <button class="order-button" data-product="The Sofia Dress">
+                Discover Piece
+            </button>
+        </article>
+
+    </div>
+</section>
+
+<section class="statement">
+    <div class="statement-inner">
+        <p class="eyebrow">THE MAISON ÉCLAT PHILOSOPHY</p>
+
+        <h2>
+            BEYOND TRENDS.<br>
+            <span>BEYOND ORDINARY.</span>
+        </h2>
+
+        <p class="statement-description">
+            We believe fashion is an expression of identity.
+            Every detail tells a story. Every silhouette
+            makes a statement.
+        </p>
+
+        <a href="#about" class="statement-link">
+            DISCOVER OUR WORLD ↗
+        </a>
+    </div>
+
+    <div class="statement-side">
+        MAISON ÉCLAT — THE ART OF MODERN LUXURY
+    </div>
+</section>
+
+<section class="experience" id="experience">
+    <div class="experience-image">
+        <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=1200&q=90"
+             alt="Fashion atelier" loading="lazy">
+    </div>
+
+    <div class="experience-content">
+        <p class="eyebrow">CRAFTED WITH INTENTION</p>
+
+        <h2>
+            THE ART OF<br>
+            <span>BEING DIFFERENT.</span>
+        </h2>
+
+        <p>
+            From striking silhouettes to considered details,
+            every creation expresses individuality,
+            confidence and modern elegance.
+        </p>
+
+        <a href="#collection">EXPLORE OUR WORLD ↗</a>
+    </div>
+</section>
+
+<section class="world" id="about">
+    <div class="world-image">
+        <img src="https://images.unsplash.com/photo-1762605135376-ae5af70a5628?auto=format&fit=crop&w=1400&q=90"
+             alt="Elegant abaya fashion editorial" loading="lazy">
+    </div>
+
+    <div class="world-content">
+        <p class="eyebrow">WELCOME TO OUR WORLD</p>
+
+        <h2>
+            MORE THAN<br>
+            <span>FASHION.</span>
+        </h2>
+
+        <p>
+            MAISON ÉCLAT is a celebration of individuality,
+            confidence and timeless sophistication.
+            A universe where every detail matters
+            and every creation has a story.
+        </p>
+
+        <div class="world-line"></div>
+        <p class="world-signature">MAISON ÉCLAT — PARIS</p>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="services-heading">
+        <p class="eyebrow">WHAT WE CREATE</p>
+        <h2>OUR WORLD OF <span>CREATION.</span></h2>
+        <p>Discover the different expressions of MAISON ÉCLAT.</p>
+    </div>
+
+    <div class="services-grid">
+
+        <div class="service-card">
+            <span>01</span>
+            <h3>Haute Couture</h3>
+            <p>Exceptional creations made to leave a lasting impression.</p>
+            <a href="#contact">DISCOVER ↗</a>
+        </div>
+
+        <div class="service-card">
+            <span>02</span>
+            <h3>Ready-to-Wear</h3>
+            <p>Contemporary essentials designed for modern elegance.</p>
+            <a href="#collection">DISCOVER ↗</a>
+        </div>
+
+        <div class="service-card">
+            <span>03</span>
+            <h3>Personal Styling</h3>
+            <p>A refined approach to expressing your individuality.</p>
+            <a href="#contact">DISCOVER ↗</a>
+        </div>
+
+    </div>
+</section>
+
+<div class="product-modal" id="productModal">
+    <div class="modal-content">
+        <button class="close-modal" id="closeModal">×</button>
+
+        <p class="eyebrow">MAISON ÉCLAT</p>
+        <h2 id="modalProductName">Product Name</h2>
+        <p>Discover timeless elegance and exceptional style.</p>
+
+        <label for="productSize">Choose your size:</label>
+        <select id="productSize">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+        </select>
+
+        <label for="productColor">Choose your color:</label>
+        <select id="productColor">
+            <option value="Black">Black</option>
+            <option value="Burgundy">Burgundy</option>
+            <option value="Royal Blue">Royal Blue</option>
+            <option value="Emerald Green">Emerald Green</option>
+        </select>
+
+        <button class="gold-button" id="modalOrder">
+            Order via WhatsApp
+        </button>
+
+        <button class="gold-button" id="modalAddToCart" type="button">
+            Add to Shopping Bag
+        </button>
+    </div>
+</div>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-panel" id="cartPanel">
+    <div class="cart-header">
+        <h2>Your Shopping Bag</h2>
+        <button id="closeCart">×</button>
+    </div>
+
+    <div id="cartItems"></div>
+
+    <div class="cart-footer">
+        <p>Total: <strong id="cartTotal">0 DT</strong></p>
+        <button id="checkoutButton">Checkout via WhatsApp</button>
+    </div>
+</aside>
+
+<footer id="contact">
+    <div class="footer-main">
+
+        <div class="footer-brand">
+            <a href="#home" class="logo">MAISON <span>ÉCLAT</span></a>
+            <p>Elegance Without Limits.</p>
+            <p class="footer-note">
+                A universe of contemporary luxury,
+                timeless elegance and individuality.
+            </p>
+        </div>
+
+        <div class="footer-links">
+            <h4>EXPLORE</h4>
+            <a href="#home">Home</a>
+            <a href="#collection">Our Collection</a>
+            <a href="#about">Our Story</a>
+            <a href="#services">Our Services</a>
+        </div>
+
+        <div class="footer-links">
+            <h4>CONTACT</h4>
+            <a href="mailto:hello@example.com">Email Us ↗</a>
+            <a href="#collection">Discover the Collection</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <span>© 2026 MAISON ÉCLAT</span>
+        <span>CRAFTED WITH ELEGANCE</span>
+        <span>CONCEPT PROJECT BY NOVA</span>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
